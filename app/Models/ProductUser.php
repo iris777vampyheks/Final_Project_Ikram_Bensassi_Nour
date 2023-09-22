@@ -7,5 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class ProductUser extends Model
 {
-    use HasFactory;
+  use HasFactory;
+    protected $fillable = [
+        "product_id",
+        "user_id",
+        "stock"
+    ];
+    public function product(){
+        return $this->belongsTo(Product::class);
+    }
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
 }
