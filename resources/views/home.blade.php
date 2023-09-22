@@ -1,11 +1,11 @@
 @extends('layouts.index')
 @section('content')
-     <!-- banner part start-->
-     <section class="banner_part">
-       
-    
-        
-        
+    <!-- banner part start-->
+    <section class="banner_part">
+
+
+
+
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -19,7 +19,7 @@
                                                 Sofa</h1>
                                             <p>Incididunt ut labore et dolore magna aliqua quis ipsum
                                                 suspendisse ultrices gravida. Risus commodo viverra</p>
-                                            <a href="#" class="btn_2">buy now</a>
+                                            <a href="category" class="btn_2">buy now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -27,7 +27,8 @@
                                     <img src="img/banner_img.png" alt="">
                                 </div>
                             </div>
-                        </div><div class="single_banner_slider">
+                        </div>
+                        <div class="single_banner_slider">
                             <div class="row">
                                 <div class="col-lg-5 col-md-8">
                                     <div class="banner_text">
@@ -36,7 +37,7 @@
                                                 Sofa</h1>
                                             <p>Incididunt ut labore et dolore magna aliqua quis ipsum
                                                 suspendisse ultrices gravida. Risus commodo viverra</p>
-                                            <a href="#" class="btn_2">buy now</a>
+                                            <a href="category" class="btn_2">buy now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -44,7 +45,8 @@
                                     <img src="img/banner_img.png" alt="">
                                 </div>
                             </div>
-                        </div><div class="single_banner_slider">
+                        </div>
+                        <div class="single_banner_slider">
                             <div class="row">
                                 <div class="col-lg-5 col-md-8">
                                     <div class="banner_text">
@@ -63,22 +65,22 @@
                             </div>
                         </div>
                         <!-- <div class="single_banner_slider">
-                            <div class="row">
-                                <div class="col-lg-5 col-md-8">
-                                    <div class="banner_text">
-                                        <div class="banner_text_iner">
-                                            <h1>Cloth $ Wood Sofa</h1>
-                                            <p>Incididunt ut labore et dolore magna aliqua quis ipsum
-                                                suspendisse ultrices gravida. Risus commodo viverra</p>
-                                            <a href="#" class="btn_2">buy now</a>
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-8">
+                                        <div class="banner_text">
+                                            <div class="banner_text_iner">
+                                                <h1>Cloth $ Wood Sofa</h1>
+                                                <p>Incididunt ut labore et dolore magna aliqua quis ipsum
+                                                    suspendisse ultrices gravida. Risus commodo viverra</p>
+                                                <a href="#" class="btn_2">buy now</a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="banner_img d-none d-lg-block">
+                                        <img src="img/banner_img.png" alt="">
+                                    </div>
                                 </div>
-                                <div class="banner_img d-none d-lg-block">
-                                    <img src="img/banner_img.png" alt="">
-                                </div>
-                            </div>
-                        </div> -->
+                            </div> -->
                     </div>
                     <div class="slider-counter"></div>
                 </div>
@@ -102,7 +104,7 @@
                     <div class="single_feature_post_text">
                         <p>Premium Quality</p>
                         <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
+                        <a href="category" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
                         <img src="img/feature/feature_1.png" alt="">
                     </div>
                 </div>
@@ -110,7 +112,7 @@
                     <div class="single_feature_post_text">
                         <p>Premium Quality</p>
                         <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
+                        <a href="category" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
                         <img src="img/feature/feature_2.png" alt="">
                     </div>
                 </div>
@@ -118,7 +120,7 @@
                     <div class="single_feature_post_text">
                         <p>Premium Quality</p>
                         <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
+                        <a href="category" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
                         <img src="img/feature/feature_3.png" alt="">
                     </div>
                 </div>
@@ -126,7 +128,7 @@
                     <div class="single_feature_post_text">
                         <p>Premium Quality</p>
                         <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
+                        <a href="category" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
                         <img src="img/feature/feature_4.png" alt="">
                     </div>
                 </div>
@@ -226,7 +228,7 @@
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a  class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a class="add_cart">+ add to cart<i class="ti-heart"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -476,9 +478,4 @@
         </div>
     </section>
     <!--::subscribe_area part end::-->
-
-
 @endsection
-
-
-   
