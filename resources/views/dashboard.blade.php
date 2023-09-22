@@ -1,27 +1,25 @@
-<x-app-layout>
+<x-app-layout class="bg-red-200">
     <x-slot name="header">
-        <div class="flex justify-between items-center">
-            <h2 style="font-size: 24px; font-weight: bold; color: #333;" class="leading-tight">
-                {{ __('Dashboard') }}
-            </h2>
-            <div class="flex">
-                <a href="{{ route('home.index') }}" class="text-blue-600 hover:underline mr-4">
-                    Home
-                </a>
-                <form method="POST" action="{{ route('logout') }}">
-                    @csrf
-                    <button type="submit" class="text-red-600 hover:underline">Logout</button>
-                </form>
+        <div class="bg-red-300 py-4">
+            <div class="max-w-screen-xl mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-2xl font-semibold text-white">{{ __('Dashboard') }}</h2>
+                    <div class="flex space-x-4">
+                        <a href="{{ route('home.index') }}" class="text-white hover:underline font-bold">Home</a>
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                            <button type="submit" class="text-red-600 hover:underline font-bold">Logout</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </x-slot>
 
-    <div style="padding: 48px 0; background-color: #f5f5f5;">
-        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-            <div style="background-color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-radius: 8px;">
-                <div style="padding: 24px; color: #333;">
-                    {{ __("You're logged in!") }}
-                </div>
+    <div class="bg-red-200">
+        <div class="max-w-screen-xl mx-auto px-4 py-12">
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <p class="text-gray-700 text-lg">{{ __("You've successfully logged in!") }}</p>
             </div>
         </div>
     </div>

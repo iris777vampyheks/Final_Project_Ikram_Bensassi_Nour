@@ -1,3 +1,72 @@
+tracking-order/product-checkout/confirmation/elements/blog is a no ⁡⁢⁣⁢DONE ⁡⁢⁣⁡
+
+
+repo-name: projet_final_lastname_name ⁡⁢⁣⁢DONE⁡
+Factories are autorized.. Seeders are required 
+Images CRUDS.. u can either choose url or input file
+Flash msgs are required for all CRUDs
+Add Pagination 
+NavBar: Home/Shop/Contact ⁡⁢⁣⁢DONE⁡
+BONUS:: Search Bar
+
+Min 3 Product Categories(fixed)
+remove product filter & all below ⁡⁢⁣⁡⁢⁣⁢DONE⁡
+If the user is not connected & he clicked on add to cart => login page ⁡⁢⁣⁢DONE⁡
+continue shooping => shop categorie(all products page?) ⁡⁢⁣⁢DONE⁡
+Procced to checkout is non functional ⁡⁢⁣⁢DONE⁡
+
+HomePage:  ---------------------------
+in the NavBar Logo should take us to the home page ⁡⁢⁣⁡⁢⁣⁢DONE⁡
+Add an Icon for Login, & remove it from the dropdown ⁡⁢⁣⁢DONE⁡
+If user is connected.. login icon should be replaced with logout ⁡⁢⁣⁣DONE⁡
+Chart icon number should be dynamic ⁡⁢⁣⁢
+3 random products in the carousel.. and when u click on each one's buy now.. it should take u to the product show page
+in Featured Category, last 4 added products.. explore now takes you to the product's show
+in Awesoame category, remove previous/next buttons.. show last max 8 products.. when u click on product image => product's show.. when u click on add to cart => product be added to cart duh
+In Sale.. when u remove that actual product.. another one takes it place.. not randomly tho.. 
+In Best Sellers.. have products that it stock is 5 or less.. max 5.. click on product -> show
+
+Bonus: Heart Products 
+----------------------------------------
+ContactPage: 
+Available to all.. for connected users.. name & email should be there..
+When the msg is sent.. the admin gets an email with the msg.. and it gets registered in the backoffice database
+
+change contact info from backoffice 
+
+Bonus: Change map from backoffice
+
+------------------------------------
+Backoffice:
+
+The user(role user) can't access the backoffice
+
+Role "WebMaster" (given by Admin): Add/Delete/Update products created by himself in the AllProducts page.. that's it
+
+Role Admin: Full CRUD Access.. if he deleted his account... all products will be deleted as well..
+
+All users Pages for admin.. ability to change their role.. delete their existence
+
+Page MailBox: Msgs from the contact page.. all viewed msgs bg turn to green 
+Page AllProducts: CRUD of all products.. a product should have a name/picture/price/categorie/description
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

@@ -8,8 +8,8 @@
                 <div class="col-lg-8">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <h2>Cart Products</h2>
-                            <p>Home <span>-</span>Cart Products</p>
+                            <h2>contact us</h2>
+                            <p>Home <span>-</span> contact us</p>
                         </div>
                     </div>
                 </div>
@@ -18,180 +18,86 @@
     </section>
     <!-- breadcrumb start-->
 
-    <!--================Cart Area =================-->
-    <section class="cart_area padding_top">
+    <!-- ================ contact section start ================= -->
+    <section class="contact-section padding_top">
         <div class="container">
-            <div class="cart_inner">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Product</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Quantity</th>
-                                <th scope="col">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <img src="img/product/single-product/cart-1.jpg" alt="" />
-                                        </div>
-                                        <div class="media-body">
-                                            <p>Minimalistic shop for multipurpose use</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$360.00</h5>
-                                </td>
-                                <td>
-                                    <div class="product_count">
-                                        <span class="input-number-decrement"> <i class="ti-angle-down"></i></span>
-                                        <input class="input-number" type="text" value="1" min="0"
-                                            max="10">
-                                        <span class="input-number-increment"> <i class="ti-angle-up"></i></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$720.00</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <img src="img/product/single-product/cart-1.jpg" alt="" />
-                                        </div>
-                                        <div class="media-body">
-                                            <p>Minimalistic shop for multipurpose use</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$360.00</h5>
-                                </td>
-                                <td>
-                                    <div class="product_count">
-                                        <!-- <input type="text" value="1" min="0" max="10" title="Quantity:"
-                          class="input-text qty input-number" />
-                        <button
-                          class="increase input-number-increment items-count" type="button">
-                          <i class="ti-angle-up"></i>
-                        </button>
-                        <button
-                          class="reduced input-number-decrement items-count" type="button">
-                          <i class="ti-angle-down"></i>
-                        </button> -->
-                                        <span class="input-number-decrement"> <i class="ti-angle-down"></i></span>
-                                        <input class="input-number" type="text" value="1" min="0"
-                                            max="10">
-                                        <span class="input-number-increment"> <i class="ti-angle-up"></i></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$720.00</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <img src="img/product/single-product/cart-1.jpg" alt="" />
-                                        </div>
-                                        <div class="media-body">
-                                            <p>Minimalistic shop for multipurpose use</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$360.00</h5>
-                                </td>
-                                <td>
-                                    <div class="product_count">
-                                        <span class="input-number-decrement"> <i class="ti-angle-down"></i></span>
-                                        <input class="input-number" type="text" value="1" min="0"
-                                            max="10">
-                                        <span class="input-number-increment"> <i class="ti-angle-up"></i></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$720.00</h5>
-                                </td>
-                            </tr>
-                            <tr class="bottom_button">
-                                <td>
-                                    <a class="btn_1" href="#">Update Cart</a>
-                                </td>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                    <div class="cupon_text float-right">
-                                        <a class="btn_1" href="#">Close Coupon</a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                    <h5>Subtotal</h5>
-                                </td>
-                                <td>
-                                    <h5>$2160.00</h5>
-                                </td>
-                            </tr>
-                            <tr class="shipping_area">
-                                <td></td>
-                                <td></td>
-                                <td>
-                                    <h5>Shipping</h5>
-                                </td>
-                                <td>
-                                    <div class="shipping_box">
-                                        <ul class="list">
-                                            <li>
-                                                <a href="#">Flat Rate: $5.00</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Free Shipping</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Flat Rate: $10.00</a>
-                                            </li>
-                                            <li class="active">
-                                                <a href="#">Local Delivery: $2.00</a>
-                                            </li>
-                                        </ul>
-                                        <h6>
-                                            Calculate Shipping
-                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
-                                        </h6>
-                                        <select class="shipping_select">
-                                            <option value="1">Bangladesh</option>
-                                            <option value="2">India</option>
-                                            <option value="4">Pakistan</option>
-                                        </select>
-                                        <select class="shipping_select section_bg">
-                                            <option value="1">Select a State</option>
-                                            <option value="2">Select a State</option>
-                                            <option value="4">Select a State</option>
-                                        </select>
-                                        <input type="text" placeholder="Postcode/Zipcode" />
-                                        <a class="btn_1" href="#">Update Details</a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="checkout_btn_inner float-right">
-                        <a class="btn_1" href="#">Continue Shopping</a>
-                        <a class="btn_1 checkout_btn_1" href="#">Proceed to checkout</a>
+            <div class="d-none d-sm-block mb-5 pb-4">
+                <div id="map" style="height: 480px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26588.6302333737!2d-7.695947778696916!3d33.590284292951324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3118fa69c5f%3A0x22a7e428b3c1eb2d!2sAin%20Diab%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1695295257006!5m2!1sen!2sma" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+<!-- Replace this section with your Google Map iframe -->
+
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-title">Get in Touch</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                        novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder='Enter Message'></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="name" id="name" type="text"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+                                        placeholder='Enter your name'>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="email" id="email" type="email"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
+                                        placeholder='Enter email address'>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
+                                        placeholder='Enter Subject'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <a href="#" class="btn_3 button-contactForm">Send Message</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                        <div class="media-body">
+                            <h3>Buttonwood, California.</h3>
+                            <p>Rosemead, CA 91770</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>00 (440) 9865 562</h3>
+                            <p>Mon to Fri 9am to 6pm</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-email"></i></span>
+                        <div class="media-body">
+                            <h3>support@colorlib.com</h3>
+                            <p>Send us your query anytime!</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
-    <!--================End Cart Area =================-->
+    <!-- ================ contact section end ================= -->
 @endsection

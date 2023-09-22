@@ -168,16 +168,6 @@
                                     </select>
                                 </div>
                                 <div class="single_product_menu d-flex">
-                                    <h5>show :</h5>
-                                    <div class="top_pageniation">
-                                        <ul>
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="single_product_menu d-flex">
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="search"
                                             aria-describedby="inputGroupPrepend">
@@ -280,20 +270,6 @@
                                     <h3>$150.00</h3>
                                     <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="pageination">
-                                <nav aria-label="Page navigation example">
-                                    <ul class="pagination justify-content-center">
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Previous">
-                                                <i class="ti-angle-double-left"></i>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </nav>
                             </div>
                         </div>
                     </div>

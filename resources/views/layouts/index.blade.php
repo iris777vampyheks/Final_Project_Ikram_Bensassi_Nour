@@ -74,7 +74,7 @@
                             
                             <div class="user-menu">
                                 @guest
-                                    <a class="login-link" href="{{ route('login') }}">
+                                    <a class="login-link" href="{{ route('loginn') }}">
                                         <i class="fas fa-user"></i> Login
                                     </a>
                                 @else
