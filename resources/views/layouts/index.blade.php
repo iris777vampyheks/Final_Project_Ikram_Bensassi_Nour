@@ -60,7 +60,7 @@
                             <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
                             <a href=""><i class="ti-heart"></i></a>
                             <div class="dropdown cart">
-                                <a class="dropdown-toggle" href="{{route('cart.cart')}}">
+                                <a class="dropdown-toggle" href="{{route('cart.index')}}">
                                     <i class="fas fa-cart-plus"></i>
                                 </a>
                                 
@@ -216,6 +216,48 @@
         </div>
     </footer>
     <!--::footer_part end::-->
+
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const addToCartButtons = document.querySelectorAll(".add_cart");
+
+        addToCartButtons.forEach(function (button) {
+            button.addEventListener("click", function (event) {
+                event.preventDefault();
+                const productId = button.getAttribute("data-product-id");
+
+                fetch(`/cart/add/${productId}`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "X-CSRF-TOKEN": "{{ csrf_token() }}",
+                    },
+                    body: JSON.stringify({ quantity: 1 }), 
+                })
+                    .then((response) => response.json())
+                    .then((data) => {
+                        if (data.success) {
+                            alert("Product added to cart");
+                        } else {
+                            alert("Failed to add product to cart");
+                        }
+                    })
+                    .catch((error) => {
+                        console.error("Error:", error);
+                        alert("An error occurred while adding the product to the cart");
+                    });
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
 
     <!-- jquery plugins here-->
     <!-- jquery -->

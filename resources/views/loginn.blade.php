@@ -34,7 +34,7 @@
                     <div class="login_part_text text-center">
                         <div class="login_part_text_iner">
                             <h2>New to our Shop?</h2>
-                            <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
+                            <p>There are advances being made in science and technology everyday, keep you updated</p>
                             <a href="registerr" class="btn_3">Create an Account</a>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                         <div class="login_part_form_iner">
                             <h3>Welcome Back! <br> Please Sign in now</h3>
                             <!-- Laravel's Jetstream Login Form -->
-                            <form method="POST" action="{{ route('login') }}">
+                            <form method="POST" action="{{ route('loginn') }}">
                                 @csrf
                                 <div>
                                     <x-input-label for="email" :value="__('Email')" />

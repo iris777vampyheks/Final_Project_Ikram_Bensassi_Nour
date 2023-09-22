@@ -32,7 +32,7 @@
                     <div class="login_part_text text-center">
                         <div class="login_part_text_iner">
                             <h2>Welcome to our registration page</h2>
-                            <p>There are advances being made in science and technology every day, and a good example of this is the</p>
+                            <p>There are advances being made in science and technology every day, keep you updated</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <div class="login_part_form_iner">
                             <h3>Create an Account</h3>
                             <!-- Laravel Registration Form -->
-                            <form method="POST" action="{{ route('register') }}">
+                            <form method="POST" action="{{ route('registerr') }}">
                                 @csrf
                                 <!-- Name -->
                                 <div class="form-group">
